@@ -1,0 +1,6 @@
+framework module Pods_GeneralHome {
+  umbrella header "Pods-GeneralHome-umbrella.h"
+
+  export *
+  module * { export * }
+}

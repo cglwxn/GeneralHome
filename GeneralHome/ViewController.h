@@ -9,6 +9,9 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, assign) BOOL isMainTableViewCanScroll;
+@property (nonatomic, assign) BOOL isListCollectionViewCanScroll;
+@property (nonatomic, strong) UIViewController *currentCategoryVC;
 
 @end
 

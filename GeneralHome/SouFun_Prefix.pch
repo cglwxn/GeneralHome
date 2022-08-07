@@ -1,0 +1,27 @@
+//
+// Prefix header for all source files of the 'SouFun' target in the 'SouFun' project
+//
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+#define SouFun
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+    #import <CoreData/CoreData.h>
+    #import "FangCommonDefines.h"
+    #import "SouFunUISTDSIZE.h"
+    #import "UIColor+FangColor.h"
+
+//    #import "PUUtilities.h"
+//    #import "UtilitiesConstants.h"
+//    #import "PUUtilitiesEnumName.h"
+//    #import "PUUtilitiesNoticeName.h"
+#endif
+
+
+
