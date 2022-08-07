@@ -47,6 +47,7 @@
 		21BD3E4028A036E5006FEF29 /* ViewControllerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BD3E3F28A036E5006FEF29 /* ViewControllerCell.m */; };
 		21BD3E4828A04DD5006FEF29 /* WelcomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BD3E4728A04DD5006FEF29 /* WelcomViewController.m */; };
 		21BD3E4B28A05C1C006FEF29 /* SubTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BD3E4A28A05C1C006FEF29 /* SubTableView.m */; };
+		21BD3E4E28A0702A006FEF29 /* GeneralHome_Gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 21BD3E4D28A0702A006FEF29 /* GeneralHome_Gif.gif */; };
 		38ADC110BF4834004FFBFD21 /* Pods_GeneralHome_GeneralHomeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6199DE5EE31BE6A7E7E2541A /* Pods_GeneralHome_GeneralHomeUITests.framework */; };
 		489D79B9F5E3D0A5BD9FA9BC /* Pods_GeneralHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3675974C1B445B000297987A /* Pods_GeneralHome.framework */; };
 		ECE5F43890A7AB5C77A11476 /* Pods_GeneralHomeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A22B391BAECFA5886241AB /* Pods_GeneralHomeTests.framework */; };
@@ -138,6 +139,7 @@
 		21BD3E4728A04DD5006FEF29 /* WelcomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WelcomViewController.m; sourceTree = "<group>"; };
 		21BD3E4928A05C1C006FEF29 /* SubTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubTableView.h; sourceTree = "<group>"; };
 		21BD3E4A28A05C1C006FEF29 /* SubTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubTableView.m; sourceTree = "<group>"; };
+		21BD3E4D28A0702A006FEF29 /* GeneralHome_Gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = GeneralHome_Gif.gif; sourceTree = "<group>"; };
 		3675974C1B445B000297987A /* Pods_GeneralHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeneralHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		530A0EE9508EB0A2516E6393 /* Pods-GeneralHomeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeneralHomeTests.release.xcconfig"; path = "Target Support Files/Pods-GeneralHomeTests/Pods-GeneralHomeTests.release.xcconfig"; sourceTree = "<group>"; };
 		58279548977FF5FBC0148364 /* Pods-GeneralHomeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeneralHomeTests.debug.xcconfig"; path = "Target Support Files/Pods-GeneralHomeTests/Pods-GeneralHomeTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -303,6 +305,7 @@
 		21BD3E4228A0487B006FEF29 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				21BD3E4C28A0700F006FEF29 /* gifs */,
 				21BD3E4328A0488E006FEF29 /* images */,
 			);
 			path = resources;
@@ -353,6 +356,14 @@
 				210E74BC289E62D00067915F /* SouFunUISTDSIZE.h */,
 			);
 			path = Micros;
+			sourceTree = "<group>";
+		};
+		21BD3E4C28A0700F006FEF29 /* gifs */ = {
+			isa = PBXGroup;
+			children = (
+				21BD3E4D28A0702A006FEF29 /* GeneralHome_Gif.gif */,
+			);
+			path = gifs;
 			sourceTree = "<group>";
 		};
 		AD8784C14078DBC1175F580B /* Pods */ = {
@@ -487,6 +498,7 @@
 				210E747E289E36C60067915F /* Assets.xcassets in Resources */,
 				21BD3E3628A035CE006FEF29 /* FangMicroshop_SalehouseImg@2x.png in Resources */,
 				210E747C289E36C30067915F /* Main.storyboard in Resources */,
+				21BD3E4E28A0702A006FEF29 /* GeneralHome_Gif.gif in Resources */,
 				21BD3E3B28A035CE006FEF29 /* FangMicroshop_VRManageImg@2x.png in Resources */,
 				21BD3E3928A035CE006FEF29 /* FangMicroshop_CollecthouseImg@2x.png in Resources */,
 				21BD3E3A28A035CE006FEF29 /* FangMicroshop_RenthouseImg@2x.png in Resources */,
