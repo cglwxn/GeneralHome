@@ -829,7 +829,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X8FDA5J2V6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/guangleicheng/学习/demo/GeneralHome/GeneralHome/SouFun_Prefix.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GeneralHome/SouFun_Prefix.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GeneralHome/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -858,7 +858,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X8FDA5J2V6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/guangleicheng/学习/demo/GeneralHome/GeneralHome/SouFun_Prefix.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GeneralHome/SouFun_Prefix.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GeneralHome/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
